@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" skipped="0" tests="1" time="5.553" failures="0" name="it.reef.ark.rmi.test.TestRMIServer">
+  <properties>
+    <property value="Java(TM) 2 Runtime Environment, Standard Edition" name="java.runtime.name"/>
+    <property value="/opt/sun-jdk-1.5.0.22/jre/lib/amd64" name="sun.boot.library.path"/>
+    <property value="1.5.0_22-b03" name="java.vm.version"/>
+    <property value="Sun Microsystems Inc." name="java.vm.vendor"/>
+    <property value="http://java.sun.com/" name="java.vendor.url"/>
+    <property value=":" name="path.separator"/>
+    <property value="Java HotSpot(TM) 64-Bit Server VM" name="java.vm.name"/>
+    <property value="sun.io" name="file.encoding.pkg"/>
+    <property value="IT" name="user.country"/>
+    <property value="SUN_STANDARD" name="sun.java.launcher"/>
+    <property value="unknown" name="sun.os.patch.level"/>
+    <property value="Java Virtual Machine Specification" name="java.vm.specification.name"/>
+    <property value="/home/reef/progetti/workspace-games-test/k-11-Ark-RMIServer" name="user.dir"/>
+    <property value="1.5.0_22-b03" name="java.runtime.version"/>
+    <property value="sun.awt.X11GraphicsEnvironment" name="java.awt.graphicsenv"/>
+    <property value="/home/reef/progetti/workspace-games-test/k-11-Ark-RMIServer" name="basedir"/>
+    <property value="/opt/sun-jdk-1.5.0.22/jre/lib/endorsed" name="java.endorsed.dirs"/>
+    <property value="amd64" name="os.arch"/>
+    <property value="/tmp/surefirebooter215150472106332748.jar" name="surefire.real.class.path"/>
+    <property value="/tmp" name="java.io.tmpdir"/>
+    <property value="
+" name="line.separator"/>
+    <property value="Sun Microsystems Inc." name="java.vm.specification.vendor"/>
+    <property value="Linux" name="os.name"/>
+    <property value="UTF-8" name="sun.jnu.encoding"/>
+    <property value="/opt/sun-jdk-1.5.0.22/jre/lib/amd64/server:/opt/sun-jdk-1.5.0.22/jre/lib/amd64:/opt/sun-jdk-1.5.0.22/jre/../lib/amd64:/opt/sun-jdk-1.6.0.24/jre/lib/amd64/server:/opt/sun-jdk-1.6.0.24/jre/lib/amd64:/opt/sun-jdk-1.6.0.24/jre/../lib/amd64:/opt/seamonkey" name="java.library.path"/>
+    <property value="/home/reef/progetti/workspace-games-test/k-11-Ark-RMIServer/target/test-classes:/home/reef/progetti/workspace-games-test/k-11-Ark-RMIServer/target/classes:/home/reef/.m2/repository/junit/junit/4.8.1/junit-4.8.1.jar:/home/reef/.m2/repository/org/slf4j/slf4j-simple/1.4.2/slf4j-simple-1.4.2.jar:/home/reef/.m2/repository/org/slf4j/slf4j-api/1.4.2/slf4j-api-1.4.2.jar:/home/reef/.m2/repository/mysql/mysql-connector-java/5.1.13/mysql-connector-java-5.1.13.jar:/home/reef/.m2/repository/org/hibernate/hibernate-annotations/3.4.0.GA/hibernate-annotations-3.4.0.GA.jar:/home/reef/.m2/repository/org/hibernate/ejb3-persistence/1.0.2.GA/ejb3-persistence-1.0.2.GA.jar:/home/reef/.m2/repository/org/hibernate/hibernate-commons-annotations/3.1.0.GA/hibernate-commons-annotations-3.1.0.GA.jar:/home/reef/.m2/repository/org/hibernate/hibernate-core/3.3.2.GA/hibernate-core-3.3.2.GA.jar:/home/reef/.m2/repository/antlr/antlr/2.7.6/antlr-2.7.6.jar:/home/reef/.m2/repository/commons-collections/commons-collections/3.1/commons-collections-3.1.jar:/home/reef/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/home/reef/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/home/reef/.m2/repository/javax/transaction/jta/1.1/jta-1.1.jar:/home/reef/.m2/repository/hibernate-entitymanager/ejb3-persistence/3.3.2.GA/ejb3-persistence-3.3.2.GA.jar:/home/reef/.m2/repository/javax/ejb/ejb-api/3.0/ejb-api-3.0.jar:/home/reef/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/home/reef/.m2/repository/log4j/log4j/1.2.14/log4j-1.2.14.jar:/home/reef/.m2/repository/javassist/javassist/3.8.0.GA/javassist-3.8.0.GA.jar:" name="surefire.test.class.path"/>
+    <property value="Java Platform API Specification" name="java.specification.name"/>
+    <property value="49.0" name="java.class.version"/>
+    <property value="HotSpot 64-Bit Server Compiler" name="sun.management.compiler"/>
+    <property value="2.6.36-gentoo-r5" name="os.version"/>
+    <property value="/home/reef" name="user.home"/>
+    <property value="Europe/San_Marino" name="user.timezone"/>
+    <property value="sun.print.PSPrinterJob" name="java.awt.printerjob"/>
+    <property value="UTF-8" name="file.encoding"/>
+    <property value="1.5" name="java.specification.version"/>
+    <property value="reef" name="user.name"/>
+    <property value="/home/reef/progetti/workspace-games-test/k-11-Ark-RMIServer/target/test-classes:/home/reef/progetti/workspace-games-test/k-11-Ark-RMIServer/target/classes:/home/reef/.m2/repository/junit/junit/4.8.1/junit-4.8.1.jar:/home/reef/.m2/repository/org/slf4j/slf4j-simple/1.4.2/slf4j-simple-1.4.2.jar:/home/reef/.m2/repository/org/slf4j/slf4j-api/1.4.2/slf4j-api-1.4.2.jar:/home/reef/.m2/repository/mysql/mysql-connector-java/5.1.13/mysql-connector-java-5.1.13.jar:/home/reef/.m2/repository/org/hibernate/hibernate-annotations/3.4.0.GA/hibernate-annotations-3.4.0.GA.jar:/home/reef/.m2/repository/org/hibernate/ejb3-persistence/1.0.2.GA/ejb3-persistence-1.0.2.GA.jar:/home/reef/.m2/repository/org/hibernate/hibernate-commons-annotations/3.1.0.GA/hibernate-commons-annotations-3.1.0.GA.jar:/home/reef/.m2/repository/org/hibernate/hibernate-core/3.3.2.GA/hibernate-core-3.3.2.GA.jar:/home/reef/.m2/repository/antlr/antlr/2.7.6/antlr-2.7.6.jar:/home/reef/.m2/repository/commons-collections/commons-collections/3.1/commons-collections-3.1.jar:/home/reef/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/home/reef/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/home/reef/.m2/repository/javax/transaction/jta/1.1/jta-1.1.jar:/home/reef/.m2/repository/hibernate-entitymanager/ejb3-persistence/3.3.2.GA/ejb3-persistence-3.3.2.GA.jar:/home/reef/.m2/repository/javax/ejb/ejb-api/3.0/ejb-api-3.0.jar:/home/reef/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/home/reef/.m2/repository/log4j/log4j/1.2.14/log4j-1.2.14.jar:/home/reef/.m2/repository/javassist/javassist/3.8.0.GA/javassist-3.8.0.GA.jar:" name="java.class.path"/>
+    <property value="1.0" name="java.vm.specification.version"/>
+    <property value="64" name="sun.arch.data.model"/>
+    <property value="/opt/sun-jdk-1.5.0.22/jre" name="java.home"/>
+    <property value="Sun Microsystems Inc." name="java.specification.vendor"/>
+    <property value="it" name="user.language"/>
+    <property value="mixed mode" name="java.vm.info"/>
+    <property value="1.5.0_22" name="java.version"/>
+    <property value="/opt/sun-jdk-1.5.0.22/jre/lib/ext" name="java.ext.dirs"/>
+    <property value="/opt/sun-jdk-1.5.0.22/jre/lib/rt.jar:/opt/sun-jdk-1.5.0.22/jre/lib/i18n.jar:/opt/sun-jdk-1.5.0.22/jre/lib/sunrsasign.jar:/opt/sun-jdk-1.5.0.22/jre/lib/jsse.jar:/opt/sun-jdk-1.5.0.22/jre/lib/jce.jar:/opt/sun-jdk-1.5.0.22/jre/lib/charsets.jar:/opt/sun-jdk-1.5.0.22/jre/classes" name="sun.boot.class.path"/>
+    <property value="Sun Microsystems Inc." name="java.vendor"/>
+    <property value="/home/reef/.m2/repository" name="localRepository"/>
+    <property value="/" name="file.separator"/>
+    <property value="http://java.sun.com/cgi-bin/bugreport.cgi" name="java.vendor.url.bug"/>
+    <property value="little" name="sun.cpu.endian"/>
+    <property value="UnicodeLittle" name="sun.io.unicode.encoding"/>
+    <property value="" name="sun.cpu.isalist"/>
+  </properties>
+  <testcase classname="it.reef.ark.rmi.test.TestRMIServer" time="5.485" name="testSalvataggio"/>
+</testsuite>
